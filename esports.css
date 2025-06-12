@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+a {
+  color: #f4a529;
+  text-decoration: none;
+}
+
+header.hero {
+  background-color: #000;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo {
+  max-height: 200px;
+  width: auto;
+}
+
+.container {
+  max-width: 1200px; /* suurempi leveys */
+  margin: auto;
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: #f4a529;
+  margin-bottom: 1rem;
+}
+
+.players {
+  margin-top: 3rem;
+}
+
+.player-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem; /* pienempi väli */
+  justify-items: center;
+}
+
+.player-card {
+  background-color: #111;
+  border: 1px solid #222;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  max-width: 300px;
+  margin: auto;
+  width: 100%;
+}
+
+.player-card:hover {
+  transform: scale(1.03);
+}
+
+.player-card img {
+  width: 100%;
+  max-height: none;     /* Poista korkkirajoitus */
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.matches {
+  list-style: none;
+  padding-left: 0;
+}
+
+.matches li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #333;
+}
+
+.socials {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.navbar {
+  background-color: #000 !important;
+}
+
+.navbar-brand {
+  color: #f4a529 !important;
+  font-weight: bold;
+}
+
+.custom-navbar {
+  background-color: #121212 !important;        /* Tausta */
+  border-bottom: 0cap solid #f4a529;         /* Alaviiva esim. tehosteeksi */
+}
+.custom-navbar .navbar-brand {
+  color: #f4a529 !important;                /* Logo/teksti */
+  font-weight: bold;
+}
+.custom-navbar .navbar-brand:hover {
+  color: #fff !important;                   /* Hover-efekti */
+}
+.custom-navbar .nav-link {
+  color: #ddd !important;                   /* Linkkien väri */
+}
+.custom-navbar .nav-link:hover {
+  color: #f4a529 !important;                /* Hover-linkkiväri */
+}
+body {
+  background-color: #121212 !important;
+  color: #fff !important; /* valkoinen teksti */
+}
+/* Fontit koko sivustolle */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #ddd;
+  background-color: #0d0d0d;
+  line-height: 1.6;
+}
+
+/* Otsikot */
+h1, h2, h3, h4, h5 {
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+/* Hero-otsikko tehostus */
+.hero h1 {
+  font-size: 3rem;
+  text-shadow: 0 0 10px red;
+}
+
+/* Painikkeet tai tehostetekstit */
+button, .btn, .nav-link {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+}
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  border-bottom: 2px solid red;
+  display: inline-block;
+  padding-bottom: 0.25rem;
+}
+.navbar-brand {
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.team-header {
+  width: 100vw;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.header-images {
+  width: 100%;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+html {
+  overflow-y: scroll;
+}
+.navbar {
+  min-height: 70px;
+}
+.contact-person {
+  margin-bottom: 1.5rem;
+}
+
+.contact-person h6 {
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.contact-person p {
+  margin: 0.2rem 0;
+}
+
+a {
+  color: #ed8f25; /* or your brand color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
