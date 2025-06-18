@@ -213,3 +213,37 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.navbar-brand img {
+  filter: drop-shadow(0 0 6px rgba(255, 165, 0, 0.5));
+}
+
+.navbar-brand {
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  filter: drop-shadow(0 0 6px rgba(244, 165, 41, 0.6));
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.my-video {
+  width: 50%;
+  max-width: 400px; /* adjust to your needs */
+  height: auto;
+  border-radius: 12px;
+}
+.paragraph {
+  text-align: center;
+}
+
+.contact-btn {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  background-color: #f4a529;
+}
