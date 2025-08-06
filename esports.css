@@ -374,3 +374,17 @@ a:hover {
   height: 180px;
 }
 
+.sponsor-image {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sponsor-header-img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(244, 165, 41, 0.2);
+}
+
